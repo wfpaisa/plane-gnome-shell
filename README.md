@@ -10,5 +10,5 @@ _Notas_
 _Pasos_
 
 1. Pasar a la rama `gnome-shell`
-2. Descargar en la carpeta theme la version equivalente a la instalada en el sistema operativo [desde link](https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/main/data/theme?ref_type=heads).
-3.
+2. Descargar la version equivalente a la instalada en el sistema operativo [desde link](https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/main/data/theme?ref_type=heads). en en la carpeta theme sobre escribiendo.
+3. Llevar la rama `gnome-shell` a `main`

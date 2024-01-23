@@ -139,7 +139,7 @@
   }
 
   .calendar-day-with-events {
-    background-image: if($variant == 'light', url("resource:///org/gnome/shell/theme/calendar-today-light.svg"),url("resource:///org/gnome/shell/theme/calendar-today.svg"));
+    background-image: if($variant == 'light', url("calendar-today-light.svg"),url("calendar-today.svg"));
     background-size: contain;
   }
 

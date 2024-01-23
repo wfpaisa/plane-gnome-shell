@@ -10,7 +10,7 @@
 **Steps**
 
 1. Switch to the `gnome-shell` branch.
-2. Download the version equivalent to the one installed on the operating system [from the link](https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/main/data/theme?ref_type=heads) and overwrite the contents in the `theme` folder.
+2. Download the version equivalent to the one installed on the operating system [from the link](https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/main/data/theme?ref_type=heads) and overwrite the contents in the `theme` folder. and commit with the specifc gnome-shell version: ex: `git commit -m 'v45.3'`
 3. Merge the `gnome-shell` branch into `main`.
 4. Install dependencies with `npm i`.
 5. Compile with `npm run build`.

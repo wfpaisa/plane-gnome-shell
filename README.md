@@ -1,11 +1,13 @@
 # Plane Theme Shell
 
-## How to Update
+Gnome shell theme for Plane themes
 
-** Install **
+## Install
 
 1. Copy the theme content to `/home/[USERNAME]/.local/share/themes/Plane/gnome-shell` excluding the `gnome-shell-sass` folder.
 2. Select the theme in the Tweaks tool under Shell Theme.
+
+## How to Update
 
 **Notes**
 

@@ -2,6 +2,11 @@
 
 ## How to Update
 
+** Install **
+
+1. Copy the theme content to `/home/[USERNAME]/.local/share/themes/Plane/gnome-shell` excluding the `gnome-shell-sass` folder.
+2. Select the theme in the Tweaks tool under Shell Theme.
+
 **Notes**
 
 1. The `main` branch contains the stylization.
@@ -14,5 +19,5 @@
 3. Merge the `gnome-shell` branch into `main`.
 4. Install dependencies with `npm i`.
 5. Compile with `npm run build`.
-6. Copy the theme content to `/home/[USERNAME]/.local/share/themes/Plane-dark/gnome-shell` excluding the `gnome-shell-sass` folder.
+6. Copy the theme content to `/home/[USERNAME]/.local/share/themes/Plane/gnome-shell` excluding the `gnome-shell-sass` folder.
 7. Select the theme in the Tweaks tool under Shell Theme.

@@ -5,12 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass ./theme/gnome-shell-dark.scss ./theme/gnome-shell-dark.css",
-    "build2": "gnome-shell-high-contrast.css - gnome-shell-light.css"
+    "build": "npm run build-dark && npm run build-light && npm run build-contrast",
+    "build-dark": "sass ./theme/gnome-shell-dark.scss ./theme/gnome-shell-dark.css",
+    "build-light": "sass ./theme/gnome-shell-light.scss ./theme/gnome-shell-light.css",
+    "build-contrast": "sass ./theme/gnome-shell-high-contrast.scss ./theme/gnome-shell-high-contrast.css"
   },
   "author": "wfpaisa",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.70.0"
+  },
+  "engines" : { 
+    "npm" : "v9.8.1",
+    "node" : "v18.18.2"
   }
 }

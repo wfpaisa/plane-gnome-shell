@@ -1,14 +1,18 @@
-# Plane theme shell
+# Plane Theme Shell
 
-## Como actualizar
+## How to Update
 
-_Notas_
+**Notes**
 
-1. La rama `main` contiene la estilización
-2. La rama `gnome-shell` contine la ultima versión descargada
+1. The `main` branch contains the stylization.
+2. The `gnome-shell` branch contains the latest downloaded version.
 
-_Pasos_
+**Steps**
 
-1. Pasar a la rama `gnome-shell`
-2. Descargar la version equivalente a la instalada en el sistema operativo [desde link](https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/main/data/theme?ref_type=heads). en en la carpeta theme sobre escribiendo.
-3. Llevar la rama `gnome-shell` a `main`
+1. Switch to the `gnome-shell` branch.
+2. Download the version equivalent to the one installed on the operating system [from the link](https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/main/data/theme?ref_type=heads) and overwrite the contents in the `theme` folder.
+3. Merge the `gnome-shell` branch into `main`.
+4. Install dependencies with `npm i`.
+5. Compile with `npm run build`.
+6. Copy the theme content to `/home/[USERNAME]/.local/share/themes/Plane-dark/gnome-shell` excluding the `gnome-shell-sass` folder.
+7. Select the theme in the Tweaks tool under Shell Theme.
